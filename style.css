@@ -25,30 +25,48 @@ main{
 
 header{
   width:100%;
-  height: 13vh;
+  height: 10vh;
   display: inline-block;
 }
 
- header img{
-  width: 45px;
-  margin-left:10%;
-  margin-top:5px;
-  padding: -5px;
+ .headerImg{
+   width: 40px;
+  margin-left:100px;
  }
 
- 
+ ul{
+   height:90px;
+   padding: 4px;
+ }
+
 li{
   display:inline-block;
-  margin-left: 40px;
+  margin-left: 35px;
   font-size: 14px;
+  margin: 2;
 }
 
 .projeto{
-    margin-left: 220px;
+    margin-left: 60px;
 }
 
 .universo{
-  margin-left:450px;
+  margin-left:400px;
+}
+
+.universo:hover{
+  font-weight: bold;
+}
+
+.actor:hover{
+  font-weight: bold;
+}
+
+.season:hover{
+  font-weight: bold;
+}
+
+.community:hover{
   font-weight: bold;
 }
 
